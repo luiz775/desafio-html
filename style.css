@@ -1,5 +1,9 @@
+    @font-face {
+        font-family: 'idroid';
+        src: url('/fontes/idroid.otf') format('opentype');
+    }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #47c514;
     margin: 0;
     padding: 0;
@@ -20,6 +24,7 @@ main {
   border-radius: 24px;
   text-align: left;
   margin: 0 auto;
+  font-family: idroid;
 }
 
 div.imagem {
@@ -37,7 +42,19 @@ section {
 }
 
 #final {
-    background-color: #f10808;
+    background-color: #d1cece;
     padding: 20px;
     border-radius: 12px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.lista2 { 
+    display: flex;
+    margin: 0 250px 0 0;
 }
