@@ -1,60 +1,134 @@
-    @font-face {
-        font-family: 'idroid';
-        src: url('/fontes/idroid.otf') format('opentype');
-    }
+@font-face {
+  font-family: "idroid";
+  src: url("/fontes/idroid.otf") format("opentype");
+  
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px (tamanho de tablet) */
+}
+
+@media (max-width: 480px) {
+  /* Estilos para telas menores que 480px (tamanho de smartphone) */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #47c514;
-    margin: 0;
-    padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #78d849;
+  margin: 0;
+  padding: 0;
+  
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 header {
-    background-color: #f7cb06;
-    
-    padding: 20px;
-    text-align: center;
+  background-color: #234e0e;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 0.623)
+  );
+  color: #ececeb;
+  padding: 20px;
+  text-align: center;
 }
 
 main {
   box-sizing: border-box;
-  width:fit-content;
+  width: 50%;
   padding: 24px;
-  background-color: #f5f5f4;
-  border-radius: 24px;
+  background-color: #e9ecea;
   text-align: left;
   margin: 0 auto;
   font-family: idroid;
+  box-shadow: #050505 0px 0px 10px 0px;
 }
 
 div.imagem {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
+  
 }
 div.imagem > p {
-    
-    text-align: left;
+  text-align: left;
+  
 }
- 
-section {
-    margin: 20px 0;
-    background-color: #f7cb06;
+
+section > h2 {
+  
+  background-image: linear-gradient(
+    to right,
+    rgba(7, 165, 15, 0.459),
+    rgb(250, 250, 250)
+  );
 }
 
 #final {
-    background-color: #d1cece;
-    padding: 20px;
-    border-radius: 12px;
+  background-color: #d1cece;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .lista {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
 
+.lista2 {
+  display: flex;
+  margin: 0 250px 0 0;
+}
+
+nav {
+  text-align: left;
+}
+
+nav a {
+  color: #96968b;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  /* Efeito de fundo ao passar o mouse*/
+  color: #fdd008;
 }
 
 
-.lista2 { 
-    display: flex;
-    margin: 0 250px 0 0;
+a:hover {
+  color: #08130a;
+  font-weight: bold;
+  text-decoration: none;
 }
+iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+}
+
+a {
+  color: #08dd24;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+article {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+    color: #234e0e;
+}
+
